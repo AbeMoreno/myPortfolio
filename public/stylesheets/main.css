@@ -7,9 +7,11 @@ body {
     color: white;
 }
 
-.opacity-div{
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+.insta-color{
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%);  
+background: linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%);  
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 }
 
 #landing{

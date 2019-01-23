@@ -23,5 +23,16 @@ $(document).ready(function(){
   });
   
     $('.parallax').parallax();
+    
+  $(".list-item").on({
+    mouseenter: function(){
+      $(this).addClass("animated");
+      $(this).addClass("pulse");
+    },
+    mouseleave: function(){
+      $(this).removeClass("animate");
+      $(this).removeClass("pulse");
+    }
+  });
      
 });
