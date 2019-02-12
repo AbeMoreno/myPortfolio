@@ -7,16 +7,36 @@ body {
     color: white;
 }
 
+.custom-orange{
+    background-color: #ff8300;
+}
+
 .insta-color{
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%); 
-background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%);  
-background: linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%);  
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%);  
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 20%, #dc2743 40%, #cc2366 60%, #bc1888 80%, #9517bc 100%);  
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.section{
+    padding-bottom: 0;
+}
+
+.card{
+    border-radius: 3px;
+}
+
+.card-content{
+    background-color: black;
+}
+
+#work{
+    background-color: #171719;
 }
 
 #landing{
     height: 100vh;
-    background-image: url('/images/scenery.jpg');
+    background-image: url('https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,4 +46,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 
 #mainText{
     margin-top: 30vh;
+}
+
+#p1{
+    height: auto;
 }
