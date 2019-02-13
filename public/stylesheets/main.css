@@ -3,6 +3,14 @@ body {
     color: rgba(255,255,255,0.8);
 }
 
+.input-field input, textarea{
+    color: white;
+}
+
+.white-text{
+    color: white;
+}
+
 .landing-section{
     color: white;
 }
@@ -31,6 +39,17 @@ body {
     background-color: black;
 }
 
+.aLittleVisible{
+    min-width: 100% !important;
+    height: 100% !important;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.aLittleVisible h1{
+    padding-top: 10px; 
+}
+
 #projects{
     padding-top: 0;
 }
@@ -49,10 +68,31 @@ body {
     z-index: -1;
 }
 
+#skills{
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/6482/black-and-white-man-person-hands.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
 #mainText{
     margin-top: 30vh;
 }
 
 #p1{
     height: auto;
+}
+
+#contact{
+    margin: 0;
+    padding: 0;
+}
+
+#contact h1{
+    margin: 0;
+    padding-top: 10px;
+    text-align: center;
 }
