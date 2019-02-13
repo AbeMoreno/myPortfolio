@@ -20,6 +20,7 @@ body {
 
 .section{
     padding-bottom: 0;
+    color: white;
 }
 
 .card{
@@ -28,6 +29,10 @@ body {
 
 .card-content{
     background-color: black;
+}
+
+#projects{
+    padding-top: 0;
 }
 
 #work{
