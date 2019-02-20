@@ -6,7 +6,7 @@ var express = require("express"),
         service: 'gmail',
         auth: {
             user: 'automatedcristoreyreminder@gmail.com',
-            pass: process.env.PASS
+            pass: process.env.SUPERDUPERSECRETPASSWORD
         }
     });
     
