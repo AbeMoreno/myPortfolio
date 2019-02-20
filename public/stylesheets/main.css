@@ -96,3 +96,16 @@ body {
     padding-top: 10px;
     text-align: center;
 }
+
+@media screen and (max-width: 750px){
+  .brand-logo{
+      width: 100%;
+      text-align: center;
+  }
+}
+
+@media screen and (max-width: 350px){
+  .brand-logo{
+      font-size: 15px !important;
+  }
+}

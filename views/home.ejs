@@ -15,10 +15,12 @@
             <nav class="black">
                 <div class="container">                                                         <!-- Centers the text --> 
                   <div class="nav-wrapper">
-                    <a href="/" class="brand-logo">ABRAHAM | MORENO</a>
+                    <a href="#landing" class="brand-logo">ABRAHAM | MORENO</a>
                     <ul class="right hide-on-med-and-down">
                       <li><a href="#intro">About Me</a></li>
                       <li><a href="#projects">Projects</a></li>
+                      <li><a href="#skills">Skills</a></li>
+                      <li><a href="#contact">Contact</a></li>
                     </ul>
                   </div>
                 </div>
@@ -144,7 +146,7 @@
                             <img class="responsive-img" src="https://cdn-images-1.medium.com/max/1200/1*eXIBeNlLhz4Pe6vDrYkXLQ.png">
                         </div>
                         <div class="col m4 l2">
-                            <img class="responsive-img" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png">
+                            <img class="responsive-img" src="https://www.shareicon.net/download/2016/08/01/639868_development.ico">
                         </div>
                         <div class="col m4 l2">
                             <img class="responsive-img" src="http://www.sclance.com/pngs/javascript-logo-png/javascript_logo_png_728629.png">
@@ -156,7 +158,7 @@
                     <div class="row center">
                         <div class="col m3"></div>
                         <div class="col m2">
-                            <img class="responsive-img" src="https://worldvectorlogo.com/logos/photoshop-cc.svg">
+                            <img class="responsive-img" src="images/ps.png">
                         </div>
                         <div class="col m2">
                             <img class="responsive-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Adobe_premiere_logo_vector.svg/2000px-Adobe_premiere_logo_vector.svg.png">
@@ -178,28 +180,28 @@
                     </div>
                 </div>
                 <div class="row">
-                    <form class="col s12 center">
+                    <form class="col s12 center" action="/sendMessage" method="POST" autocomplete="off">
                         <div class="row">
                             <div class="input-field col s4">
-                                <input id="first_name" type="text" class="validate">
+                                <input id="first_name" type="text" class="validate" name="first">
                                 <label for="first_name">First Name</label>
                             </div>
                             <div class="input-field col s4">
-                                <input id="last_name" type="text" class="validate">
+                                <input id="last_name" type="text" class="validate" name="last">
                                 <label for="last_name">Last Name</label>
                             </div>
                             <div class="input-field col s4">
-                                <input id="email" type="email" class="validate">
+                                <input id="email" type="email" class="validate" email="email" name="email">
                                 <label for="email">Email</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s8">
-                                <textarea id="icon_prefix2" class="materialize-textarea" autocomplete="off"></textarea>
+                                <textarea id="icon_prefix2" class="materialize-textarea" autocomplete="off" name="message"></textarea>
                                 <label for="icon_prefix2">Message</label>
                             </div>
                             <div class="input-field col s4">
-                                <input id="icon_telephone" type="tel" class="validate">
+                                <input id="icon_telephone" type="tel" class="validate" name="tel">
                                 <label for="icon_telephone">Telephone</label>
                             </div>
                         </div>
